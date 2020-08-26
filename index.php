@@ -49,7 +49,7 @@
 
   foreach ($utenti as $utente) {
     $userPrint = new User();
-    $userPrint->ID = $utente['ID'];
+    $userPrint->ID_user = $utente['ID_user'];
     $userPrint->nome = $utente['nome'];
     $userPrint->cognome = $utente['cognome'];
     $userPrint->email = $utente['email'];
