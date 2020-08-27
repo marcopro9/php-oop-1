@@ -6,11 +6,11 @@
     public $cognome;
     public $email;
 
-    public function getNomeCognome($nome , $cognome){
-      echo 'User: ' . $nome . ' ' . $cognome . '<br>';
+    public function getNomeCognome(){
+      echo 'User: ' . $this->nome . ' ' . $this->cognome . '<br>';
     }
-    public function getEmail($email){
-      echo 'User Email: ' . $email . '<br>';
+    public function getEmail(){
+      echo 'User Email: ' . $this->email . '<br>';
     }
   }
 
@@ -53,7 +53,7 @@
     $userPrint->nome = $utente['nome'];
     $userPrint->cognome = $utente['cognome'];
     $userPrint->email = $utente['email'];
-    $userPrint->getNomeCognome($userPrint->nome , $userPrint->cognome);
-    $userPrint->getEmail($userPrint->email);
+    $userPrint->getNomeCognome();
+    $userPrint->getEmail();
   }
 ?>
