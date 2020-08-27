@@ -51,6 +51,7 @@ require_once( __DIR__ . '/role.php');
 // }
 $ruolo = new Role('Marco', 'Prosperi', 'marco@mail.it', '56');
 $ruolo -> setRuolo('Capo');
+$ruolo -> setSconto();
 
 var_dump($ruolo);
 
