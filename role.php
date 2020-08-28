@@ -7,7 +7,7 @@ class Role extends User {
     $this->ruolo = $ruolo;
   }
   public function setSconto(){
-    if ($this->ruolo = 'Capo') {
+    if ($ruolo = 'Capo') {
       $this->sconto = '100%';
     }
   }

@@ -13,7 +13,7 @@ class User {
     $this->eta = $eta;
   }
   public function setSconto(){
-    if ($this->eta > 60) {
+    if ($eta > 60) {
       $this->sconto = '20%';
     }
   }
